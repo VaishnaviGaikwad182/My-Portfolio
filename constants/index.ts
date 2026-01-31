@@ -63,13 +63,22 @@ export const PROJECTS = [
     index: 3,
   },
   {
+    title: "FoodSaver",
+    description:
+      'FoodSaver is a web platform connecting food providers and collectors to reduce food wastage. Providers can post surplus food, while collectors can view and accept available items. The system features role-based dashboards, secure login, dynamic profiles, and real-time updates, promoting sustainability and community impact.',
+    image: "/projects/project-6.png",
+    link: "https://github.com/VaishnaviGaikwad182/Sleep_Disorder_Prediction",
+    techStack: ["HTML", "CSS", "JavaScript", "NodeJs", "ExpressJs", "MongoDB"],
+    index: 4,
+  },
+  {
     title: "ShikshaSphere",
     description:
       'ShikshaSphere — an interactive learning platform built with Next.js and TypeScript, Tailwind CSS, and Firebase. It offers modular courses, leaderboards, quizzes, and an AI-powered tutor (GenKit + GoogleAI). Lightweight, extensible, and designed for personalized STEM learning and analytics. Offers progress tracking, modular quizzes, and analytics.',
     image: "/projects/project-4.png",
     link: "https://github.com/VaishnaviGaikwad182/ShikshaSphere",
     techStack: ["NextJS 15", "TailwindCSS", "TypeScript", "Firebase", "GoogleAI "],
-    index: 4,
+    index: 5,
   },
   {
     title: "Alankara",
@@ -78,15 +87,6 @@ export const PROJECTS = [
     image: "/projects/project-5.png",
     link: "https://github.com/VaishnaviGaikwad182/Alankara",
     techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    index: 5,
-  },
-  {
-    title: "Sleep Disorder Prediction",
-    description:
-      'Predictive ML model for sleep disorders with 96% accuracy. Identified 9 at-risk individuals using classification metrics like precision, recall, and F1-score. Includes data preprocessing and model evaluation.',
-    image: "/projects/project-6.png",
-    link: "https://github.com/VaishnaviGaikwad182/Sleep_Disorder_Prediction",
-    techStack: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter Notebook", "Random Forest"],
     index: 6,
   },
 ] as const;
